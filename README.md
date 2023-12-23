@@ -19,6 +19,7 @@ Clone the repository:
 
 Screenshots:
 ![Calculator App Screenshot 1](Screenshots/calci-1.jpg)
+![Calculator App Screenshot 2](Screenshots/calci-2.jpg)
 
 
 Open the index.html file in your preferred web browser.
