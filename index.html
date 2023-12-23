@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calci</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="container">
+        <div class="space">
+          <input type="text" id="textfield" readonly />
+        </div>
+        <div class="buttons">
+          <input type="button" id="clear" value="C" onclick="clearelements()" />
+          <input
+            type="button"
+            id="backspace"
+            value="<-"
+            onclick="backspace()"
+          />
+          <input type="button" id="equal" value="=" onclick="equal()" />
+          <input
+            type="button"
+            id="percentage"
+            value="%"
+            onclick="percentage('%')"
+          />
+
+          <input type="button" id="one" value="1" onclick="numbers(1)" />
+          <input type="button" id="two" value="2" onclick="numbers(2)" />
+          <input type="button" id="three" value="3" onclick="numbers(3)" />
+          <input type="button" id="plus" value="+" onclick="plus('+')" />
+
+          <input type="button" id="four" value="4" onclick="numbers(4)" />
+          <input type="button" id="five" value="5" onclick="numbers(5)" />
+          <input type="button" id="six" value="6" onclick="numbers(6)" />
+          <input type="button" id="minus" value="-" onclick="minus('-')" />
+
+          <input type="button" id="seven" value="7" onclick="numbers(7)" />
+          <input type="button" id="eight" value="8" onclick="numbers(8)" />
+          <input type="button" id="nine" value="9" onclick="numbers(9)" />
+          <input
+            type="button"
+            id="multiply"
+            value="*"
+            onclick="multiply('*')"
+          />
+
+          <input type="button" id="zero" value="0" onclick="numbers(0)" />
+          <input type="button" id="dot" value="." onclick="dot('.')" />
+
+          <input type="button" id="divide" value="/" onclick="divide('÷')" />
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
