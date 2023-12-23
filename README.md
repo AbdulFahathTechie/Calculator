@@ -17,6 +17,10 @@ Usage
 Clone the repository:
 **git clone https://github.com/your-username/calculator-project.git**
 
+Screenshots:
+![Calculator App Screenshot 1](Screenshots/calci-1.jpg)
+
+
 Open the index.html file in your preferred web browser.
 
 Use the calculator to perform arithmetic operations.
